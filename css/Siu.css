@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+header{
+    background-color: rgb(43, 181, 223);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.Siu-logo{
+    width: 10rem;
+}
+
+.logo-asid-text{
+    width: 260px;
+    height: 60px;
+    font-size: 18px;
+}
+
+.not-header{
+    display: flex;
+    align-items:center;
+    left: 0px;
+}
+
+.Iniciar-btn{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size: 1.5rem;
+    border:none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.Iniciar-btn:hover{   
+    color: rgb(255, 255, 255);
+    background-color: rgb(87, 212, 29);
+    box-shadow: 4px 4px 18px rgb(29, 94, 116);
+    transform:scale(1.15);
+    padding-right: 10px;
+    transition: transform 300ms;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+.list{
+    background-color: rgb(180, 180, 180);
+    background-color: rgb(112, 218, 250);
+    padding: 12px;
+    gap: 8rem;
+    box-shadow: 0px 10px 20px rgb(124, 124, 124);
+    
+}
+
+li a{
+    color: rgb(228, 252, 255);
+    text-decoration: none;
+    display: flex;
+    width: 12remx;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: rgb(54, 181, 219);
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 3px 10px rgb(61, 118, 136);
+}
+
+li a:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(36, 223, 230);
+    box-shadow: 6px 4px 13px rgb(61, 118, 136);
+    transform:scale(1.15);
+    transition: transform 300ms;
+}
+li a:focus{
+    color: rgb(70, 190, 226);
+    background-color:rgb(255, 255, 255);
+    transform:scale(1);
+    transition: transform,100ms;
+}
+
+.login{
+   display: flex;
+   width: 70rem;
+   height: 40rem;
+   padding: 10px;
+   background-color: rgb(146, 146, 146);
+   align-content: center;
+   margin: 40px 23rem;
+   border-radius: 20px;
+   }
+
+   h2{
+       padding: 10px;
+   }
+
+   .login-btn{
+    width: 70px;
+    height: 40px;
+    margin: 10px 15px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(80, 80, 80);
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    transition: transform,200ms;
+    cursor: pointer;    
+}
+
+   .login-acept:hover{
+    background-color:  rgb(87, 212, 29);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 3px 10px rgb(88, 88, 88);
+    transform:scale(1.05);    
+}
+
+   .login-reset:hover{
+    background-color:  rgb(212, 50, 29);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 3px 10px rgb(77, 77, 77);
+    transform:scale(1.05);
+}
+
+
+
+.login-intern-box{
+    display: inline;
+    background-color: rgba(148, 120, 120, 0);
+    font-size: 20px
+}
+
+.login-form{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
