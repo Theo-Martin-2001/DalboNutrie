@@ -1,0 +1,413 @@
+/* PAGINA PRODUCTOS */
+/* PAGINA PRODUCTOS */
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #a5e78b;
+    background-image:url(../img/Foto-inicio-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "conteiner"
+    "footer";
+    grid-template-rows: auto auto auto;
+    min-height: 100vh;
+}
+
+/* HEADER C/N GRID */
+header{
+   grid-area: header;
+   background-color: rgba(16, 202, 109, 0);
+   justify-items: center;
+}
+
+/* NAV BAR */
+nav{
+    background-color: #4AA04A;
+    width: 90%;
+    display: flex;
+    height:40px;
+    padding: 10px 1rem;
+    margin: 20px;
+    border-radius:50px;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 2px 10px 25px #021a07;
+    border: outset 0.7px rgb(75, 145, 11);
+}
+
+ul{
+   display: flex;
+   text-decoration: none;
+   list-style: none;
+   gap: 2.5rem;
+   text-align: center;
+   align-items: center;
+}
+
+/* OPCIONES GENERALES */
+.logo{
+    width: 45px;
+    height: 40px;
+    padding-bottom:5px;
+}
+
+li a{
+    text-decoration: none;
+    display: flex;
+    width: 90px;
+    height: 27px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(112, 206, 57);
+    padding: 4px 10px 8px;
+    justify-content: center;
+    border: none;
+}
+
+li a:hover{
+    background-color: rgb(233, 229, 229);
+    color: black;
+    box-shadow: 4px 2px 12px #eef3f3;
+    cursor:pointer;
+}
+
+
+/* BOTON DEL CHANGUITO */
+.cart-btn{
+    display: flex;
+    width: 60px;
+    height: 28px;
+    border-radius: 50px;
+    background-color: rgb(55, 210, 221);
+    padding: 6px 10px;
+    justify-content: center;
+    align-content: center; 
+    cursor:pointer;
+}
+.carrito{
+    width: 30px;
+    height: 27px;
+
+}
+
+.cart-btn:hover{
+    background-color: rgb(58, 247, 247);
+    box-shadow: 0px 2px 15px rgb(34, 241, 231);
+}
+
+.nav-search{
+    height: 45px;
+    width: 250px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border:none;
+    border-radius:50px;
+    font-size:16px;
+}
+/* TERMINA EL NAV BAR */
+
+.big-conteiner{
+    grid-area:conteiner;
+}
+
+/* COMIENZA FORMULARIO */
+.form-register{
+    width: 400px;
+    background-color: rgba(191, 200, 218, 0.637);
+    padding: 30px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(247, 255, 242);
+}
+
+.form-register h4{
+    font-size: 30px;
+}
+
+.form-register p a{
+    color:white;
+    text-decoration: none;
+}
+
+.radio{
+    display:flex;
+}
+
+.controls{
+    font-size: 20px;
+    padding:6px 0px;
+    margin: 9px 0px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.boton{
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    background-color: rgb(117, 207, 106);
+    color: white;
+    margin: 0 20px;
+}
+
+.borrar{
+    background-color: rgb(214, 49, 49);
+    color: white;
+}
+
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+/* TERMINA FORMULARIO */
+
+
+/* FOOTER */
+footer{
+    grid-area: footer;
+    text-align: center;
+    margin: 3rem 0 40px;
+    padding:2rem;
+}
+
+.footer-icons{
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    padding: 3px;
+    margin: 30px;
+}
+
+
+/* PAGINA REGISTRO */
+/* PAGINA REGISTRO */
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #a5e78b;
+    background-image:url(../img/Foto-inicio-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "conteiner"
+    "footer";
+    grid-template-rows: auto auto auto;
+    min-height: 100vh;
+}
+
+/* HEADER C/N GRID */
+header{
+   grid-area: header;
+   background-color: rgba(16, 202, 109, 0);
+   justify-items: center;
+}
+
+/* NAV BAR */
+nav{
+    background-color: #4AA04A;
+    width: 90%;
+    display: flex;
+    height:40px;
+    padding: 10px 1rem;
+    margin: 20px;
+    border-radius:50px;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 2px 10px 25px #021a07;
+    border: outset 0.7px rgb(75, 145, 11);
+}
+
+ul{
+   display: flex;
+   text-decoration: none;
+   list-style: none;
+   gap: 2.5rem;
+   text-align: center;
+   align-items: center;
+}
+
+/* OPCIONES GENERALES */
+.logo{
+    width: 45px;
+    height: 40px;
+    padding-bottom:5px;
+}
+
+li a{
+    text-decoration: none;
+    display: flex;
+    width: 90px;
+    height: 27px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(112, 206, 57);
+    padding: 4px 10px 8px;
+    justify-content: center;
+    border: none;
+}
+
+li a:hover{
+    background-color: rgb(233, 229, 229);
+    color: black;
+    box-shadow: 4px 2px 12px #eef3f3;
+    cursor:pointer;
+}
+
+
+/* BOTON DEL CHANGUITO */
+.cart-btn{
+    display: flex;
+    width: 60px;
+    height: 28px;
+    border-radius: 50px;
+    background-color: rgb(55, 210, 221);
+    padding: 6px 10px;
+    justify-content: center;
+    align-content: center; 
+    cursor:pointer;
+}
+.carrito{
+    width: 30px;
+    height: 27px;
+
+}
+
+.cart-btn:hover{
+    background-color: rgb(58, 247, 247);
+    box-shadow: 0px 2px 15px rgb(34, 241, 231);
+}
+
+.nav-search{
+    height: 45px;
+    width: 250px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border:none;
+    border-radius:50px;
+    font-size:16px;
+}
+/* TERMINA EL NAV BAR */
+
+.big-conteiner{
+    grid-area:conteiner;
+}
+
+/* COMIENZA FORMULARIO */
+.form-register{
+    width: 400px;
+    background-color: rgba(191, 200, 218, 0.637);
+    padding: 30px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(247, 255, 242);
+}
+
+.form-register h4{
+    font-size: 30px;
+}
+
+.form-register p a{
+    color:white;
+    text-decoration: none;
+}
+
+.radio{
+    display:flex;
+}
+
+.controls{
+    font-size: 20px;
+    padding:6px 0px;
+    margin: 9px 0px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.boton{
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    background-color: rgb(117, 207, 106);
+    color: white;
+    margin: 0 20px;
+}
+
+.borrar{
+    background-color: rgb(214, 49, 49);
+    color: white;
+}
+
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+/* TERMINA FORMULARIO */
+
+
+/* FOOTER */
+footer{
+    grid-area: footer;
+    text-align: center;
+    margin: 3rem 0 40px;
+    padding:2rem;
+}
+
+.footer-icons{
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    padding: 3px;
+    margin: 30px;
+}
+

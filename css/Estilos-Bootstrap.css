@@ -1,0 +1,170 @@
+/* PAGINA PRODUCTOS */
+/* PAGINA PRODUCTOS */
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #a5e78b;
+    background-image:url(../img/Foto-inicio-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    background-color: #4AA04A;
+    width: 90%;
+    display: flex;
+    height:40px;
+    padding: 10px 1rem;
+    margin: 20px;
+    border-radius:50px;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 2px 10px 25px #021a07;
+}
+
+ul{
+    gap: 35px;
+    align-items: center;
+}
+
+.nav-link{
+    padding: 6px 18px;
+    align-items: center;
+    background-color: rgb(112, 206, 57);
+    border-radius: 50px;
+    color: white;    
+}
+
+.nav-link:hover{
+    background-color: rgb(164, 233, 54);
+}
+
+.form-control{
+    border-radius:50px;
+}
+
+.btn-outline-success{
+    border:none;
+    border-radius:50px;
+    color:white;
+    background-color: rgb(112, 206, 57);
+}
+
+.btn-outline-success:hover{
+    color:black;
+    background-color:white;
+}
+
+.btn-cart{
+    padding: 6px 18px;
+    border:none;
+    border-radius:50px;
+    background-color: rgb(50, 207, 207);
+}
+
+.btn-cart:hover{
+    background-color: rgb(60, 228, 228);
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 3px 15px black;
+    padding: 6rem 0;
+}
+
+/* PODUCTOS */
+.Section-title{
+    margin-top: 20px;
+    row-gap: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 20%;
+    height: 25px;
+    color: rgb(17, 54, 4);
+    align-items: center;
+    display: inline-flex;   
+    justify-content: center;
+    font-size: 20px;
+}
+
+.card{
+    border-radius: 20px;
+    background-color:#3cac10;
+    margin:5px;
+    text-align: center;
+}
+
+.card-img-top{
+    margin: 10px;
+    width: auto;
+    border-radius:10px;
+}
+
+.row{
+    margin: 0 5px;
+}
+
+.btn-primary{
+    background-color:white;
+    color:black;
+    border-radius: 50px;
+    border:none;
+}
+
+.btn-primary:hover{
+    background-color: #78cc78;
+    color:white;
+    border-radius: 50px;
+    border:none;
+}
+
+
+/* FOOTER */
+footer{
+    grid-area: footer;
+    text-align: center;
+    margin: 3rem 0 40px;
+    padding:2rem;
+}
+
+.footer-icons{
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    padding: 3px;
+    margin: 30px;
+}
+
+/* PAGINA REGISTRO */
+/* PAGINA REGISTRO */
+
+.big-card{
+   text-align: center;
+   background-color: aqua;
+}
+
+.form-control{
+width: 30%;
+}
+
+.top{
+    row-gap: 5px;
+}
+
+.btn-outline-success-2{
+    border-radius: 50px;
+    border:none;
+}
